@@ -2,7 +2,7 @@ import EditTopicForm from "@/components/EditTopicForm";
 
 const getTopicById = async (id) => {
   try {
-    const res = await fetch(`https://crud-nextjs-adje.vercel.app/api/topics/${id}`, {
+    const res = await fetch(`https://crud-newlink.vercel.app/api/topics/${id}`, {
       cache: "no-store",
     });
 

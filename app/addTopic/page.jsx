@@ -18,7 +18,7 @@ export default function AddTopic() {
     }
 
     try {
-      const res = await fetch(`http://localhost:3000/api/topics`, {
+      const res = await fetch(`http://crud-newlink.vercel.app/api/topics`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
